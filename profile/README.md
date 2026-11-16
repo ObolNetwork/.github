@@ -5,7 +5,7 @@
 Welcome to the Obol GitHub!
 
 
-The Obol GitHub is a collection of software which enables Obol Distributed Validators (DVs), and the Obol Stack. This includes repositories for [documentation](https://github.com/ObolNetwork/obol-gitbook/), the DV middleware client [Charon](https://github.com/ObolNetwork/charon), tools for running a DV node or DV cluster via Docker, the Obol Stack, and more. Please see the links below. 
+The Obol GitHub is a collection of software which enables Obol Distributed Validators (DVs), and the Obol Stack. This includes repositories for [documentation](https://github.com/ObolNetwork/obol-docs/), the DV middleware client [Charon](https://github.com/ObolNetwork/charon), tools for running a DV node or DV cluster via Docker, the Obol Stack, and more. Please see the links below. 
 
 ## About Obol
 
@@ -14,8 +14,8 @@ The Obol Collective is a collection of tools, teams, and communities dedicated t
 ## Launchers and Deployment Tooling
 
 - [Obol CDVN (a `docker compose` quickstart)](https://github.com/ObolNetwork/charon-distributed-validator-node)
+- [Obol LCDVN (the `docker compose` stack for Lido Simple DVT)](https://github.com/ObolNetwork/lido-charon-distributed-validator-node)
 - [Obol Stack](https://github.com/ObolNetwork/obol-stack)
-- [Obol K8s manifests](https://github.com/ObolNetwork/charon-k8s-distributed-validator-node)
 - [Obol Helm Charts](https://github.com/ObolNetwork/helm-charts)
 - [Obol Ansible Playbooks](https://github.com/ObolNetwork/obol-ansible)
 - [Obol Dappnode Package](https://docs.dappnode.io/docs/user/staking/ethereum/dvt-technologies/obol-network/)
@@ -23,6 +23,12 @@ The Obol Collective is a collection of tools, teams, and communities dedicated t
 - [Obol using Sedge](https://github.com/ObolNetwork/sedge/blob/develop/docs/docs/quickstart/charon.mdx)
 - [Terraform for a Charon Relay](https://github.com/ObolNetwork/terraform-charon-relay)
 - [Terraform for Grafana Charon dashboards](https://github.com/ObolNetwork/terraform-grafana-dashboards)
+
+## AI Agents and Skills
+
+- [Obol agent skills](https://github.com/ObolNetwork/skills): a Claude Code plugin that teaches an AI agent to create, test, deploy and monitor distributed validators and to run the Obol Stack. Install with `claude plugin marketplace add ObolNetwork/skills && claude plugin install obol@obol`; see the [docs](https://docs.obol.org/agent-skills).
+- [Obol MCP server](https://github.com/ObolNetwork/obol-mcp): read-only tools for the public Obol API (clusters, effectiveness, exits, operators), bundled in the plugin.
+- [obol.org/skill.md](https://obol.org/skill.md) and [obol.org/llms.txt](https://obol.org/llms.txt): entry points for any agent.
 
 ## Quickstart Guides
 
